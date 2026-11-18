@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.uet.lab</groupId>
+    <artifactId>hoanganhlinh-25020670-week9</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>HoangAnhLinh_25020670_Week9 - Root Project</name>
+    <description>Tong hop 10 bai thuc hanh Maven va CI/CD Pipeline</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <modules>
+        <module>bai-01-math-utils</module>
+        <module>bai-02-bank-system</module>
+        <module>bai-03-ci-automation</module>
+        <module>bai-04-matrix-testing</module>
+        <module>bai-05-jacoco-coverage</module>
+        <module>bai-06-ci-caching</module>
+        <module>bai-07-pr-code-review</module>
+        <module>bai-08-executable-jar</module>
+        <module>bai-09-logging-slf4j</module>
+        <module>bai-10-broken-pipeline</module>
+    </modules>
+</project>
