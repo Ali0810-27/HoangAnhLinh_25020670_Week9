@@ -33,6 +33,6 @@ jobs:
         uses: dbelyaev/action-checkstyle@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          checkstyle_file: 'bai-02-bank-system/target/checkstyle-result.xml'
+          checkstyle_file: 'bai-07-pr-code-review/target/checkstyle-result.xml'
           reporter: github-pr-review
           level: error
